@@ -1,6 +1,14 @@
 @import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
 @import url(./components/hero.css);
 @import url(../css/components/header.css);
+@import url(./components/features.css);
+@import url(./components/feature.css);
+@import url(./components/btn.css);
 ul li {
   list-style: none;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1100px;
 }

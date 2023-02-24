@@ -32,3 +32,10 @@
     width: 12px;
     margin-right: 6px;
 }
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}

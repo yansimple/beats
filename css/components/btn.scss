@@ -1,0 +1,17 @@
+.btn {
+    font-size: 19px;
+    font-weight: bold;
+    padding: 18px 35px;
+    text-transform: uppercase;
+    border-radius: 100px;
+    line-height: 1;
+    text-decoration: none;
+    &__red {
+        background-color: #E01F3D;
+        color: #fff;
+        &:hover {
+            color: #fff;
+            background-color: #CA1B36;
+        }
+    }
+}
