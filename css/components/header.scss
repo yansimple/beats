@@ -18,6 +18,10 @@
     &:last-child {
         margin-right: 0px;
     }
+    &--link {
+        text-decoration: none;
+        color: #292929;
+    }
 }
 
 .phone_number {
@@ -25,6 +29,7 @@
     text-decoration: none;
     display: flex;
     align-items: center;
+    color: #292929;
 }
 
 .phone_number_icon {
@@ -39,3 +44,14 @@
     justify-content: space-between;
     height: 100%;
 }
+
+.phone_number_icon {
+    width: 14px;
+    height: 13.78px;
+}
+
+.phone_numbers {
+    text-decoration: none;
+
+}
+

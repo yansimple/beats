@@ -4,6 +4,7 @@
 @import url(./components/features.css);
 @import url(./components/feature.css);
 @import url(./components/btn.css);
+@import url(./components/section.css);
 $grey: #F5F5F5;
 
 ul li {
@@ -13,4 +14,10 @@ ul li {
 .container {
     margin: 0 auto;
     width: 1100px;
+    position: relative;
+}
+
+@font-face {
+    font-family: 'Play';
+    src: url(../fonts/Play/Play-Regular.ttf);
 }
