@@ -10,4 +10,48 @@
     font-size: 48px;
     font-weight: bold;
     margin-bottom: 60px;
+    text-align: center;
+    color: black;
+}
+
+.headline__title {
+    margin-bottom: 25px;
+
+}
+
+.headline__subtitle {
+    color: #666666;
+}
+
+.benefit__title {
+    color: black;
+}
+
+.benefits {
+    display: flex;
+
+}
+
+.benefits__item {
+    flex: 1;
+    margin: 0 3%;
+    &:first-child {
+        margin-left: 0px;
+    }
+    &:last-child {
+        margin-right: 0px;
+    }
+}
+
+.benefit {
+    text-align: center;
+
+}
+.benefits__img--wrapper {
+    display: inline-block;
+    width: 68px;
+    height: 68px;
+    background: #F2F5F4;
+    border-radius: 50%;
+    overflow: hidden;
 }
