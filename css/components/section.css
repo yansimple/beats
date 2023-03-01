@@ -84,3 +84,8 @@
 .headline__subtitle {
   padding: 0 26%;
 }
+
+.benefits-section {
+  position: relative;
+  background: url(../../img/Vector\ 2.png) left bottom -10px no-repeat;
+}
