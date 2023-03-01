@@ -44,12 +44,24 @@
       -ms-flex: 1;
           flex: 1;
   margin: 0 3%;
+  position: relative;
 }
 .benefits__item:first-child {
   margin-left: 0px;
 }
 .benefits__item:last-child {
   margin-right: 0px;
+}
+.benefits__item:last-child:before {
+  display: none;
+}
+.benefits__item::before {
+  content: url(../../img/Combined\ shape\ 2204.png);
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
 }
 
 .benefit {
@@ -63,4 +75,12 @@
   background: #F2F5F4;
   border-radius: 50%;
   overflow: hidden;
+}
+
+.headline {
+  text-align: center;
+}
+
+.headline__subtitle {
+  padding: 0 26%;
 }

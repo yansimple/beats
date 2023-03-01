@@ -40,6 +40,17 @@
     }
     &:last-child {
         margin-right: 0px;
+        &:before {
+            display: none;
+        }
+    }
+    position: relative;
+    &::before {
+        content: url(../../img/Combined\ shape\ 2204.png);
+        position: absolute;
+        top: 30px;
+        right: 0px;
+        transform: translateX(50%);
     }
 }
 
@@ -54,4 +65,12 @@
     background: #F2F5F4;
     border-radius: 50%;
     overflow: hidden;
+}
+
+.headline {
+    text-align: center;
+}
+
+.headline__subtitle {
+    padding: 0 26%;
 }
