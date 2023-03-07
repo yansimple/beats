@@ -5,6 +5,7 @@
 @import url(./components/feature.css);
 @import url(./components/btn.css);
 @import url(./components/section.css);
+@import url(./components/price.css);
 ul li {
   list-style: none;
 }
