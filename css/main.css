@@ -6,6 +6,7 @@
 @import url(./components/btn.css);
 @import url(./components/section.css);
 @import url(./components/price.css);
+@import url(./components/reviews.css);
 ul li {
   list-style: none;
 }
@@ -23,4 +24,14 @@ ul li {
 body {
   color: #666666;
   font-family: "Play";
+}
+
+ul li {
+  padding: 0px;
+  margin: 0px;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
 }

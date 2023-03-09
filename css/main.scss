@@ -6,6 +6,7 @@
 @import url(./components/btn.css);
 @import url(./components/section.css);
 @import url(./components/price.css);
+@import url(./components/reviews.css);
 $grey: #F5F5F5;
 
 ul li {
@@ -26,4 +27,14 @@ ul li {
 body {
     color: #666666;
     font-family: 'Play';
+}
+
+ul li {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
 }
