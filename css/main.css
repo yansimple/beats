@@ -7,6 +7,7 @@
 @import url(./components/section.css);
 @import url(./components/price.css);
 @import url(./components/reviews.css);
+@import url(./components/order.css);
 ul li {
   list-style: none;
 }
