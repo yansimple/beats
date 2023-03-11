@@ -29,7 +29,7 @@
 .form__input {
     width: 100%;
     border: none;
-    padding: 18px 11px;
+    padding: 18px 0px;
     border: 3px solid transparent;
     &:focus {
         border-color: red;
@@ -53,6 +53,15 @@
 .radio {
     display: flex;
     cursor: pointer;
+    user-select: none;
+    &--checkbox {
+        .radio__visible{
+            border-radius: 0px;
+            &:before {
+                background: url(../../img/checkmark.png) no-repeat;
+            }
+        }
+    }
 }
 
 .radio__elem {
@@ -81,4 +90,9 @@
         left: 50%;
         transform: translate(-50%, -50%);
     }
+}
+
+
+.order_section {
+    color: #fff;
 }

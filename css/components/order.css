@@ -38,7 +38,7 @@
 .form__input {
   width: 100%;
   border: none;
-  padding: 18px 11px;
+  padding: 18px 0px;
   border: 3px solid transparent;
 }
 .form__input:focus {
@@ -67,6 +67,16 @@
   display: -ms-flexbox;
   display: flex;
   cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.radio--checkbox .radio__visible {
+  border-radius: 0px;
+}
+.radio--checkbox .radio__visible:before {
+  background: url(../../img/checkmark.png) no-repeat;
 }
 
 .radio__elem {
@@ -94,4 +104,8 @@
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+.order_section {
+  color: #fff;
 }
