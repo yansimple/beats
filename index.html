@@ -226,7 +226,7 @@
             </section>
             <section class="section order_section">
                 <div class="container">
-                    <h2 class="section__title">ЗАКАЖИТЕ ДОСТАВКУ</h2>
+                    <h2 class="section__title order__title">ЗАКАЖИТЕ ДОСТАВКУ</h2>
                     <form class="form">
                         <div class="form__col">
                             <div class="form__row">
@@ -236,18 +236,23 @@
                                     </div>
                                     <input type="text" class="form__input">
                                 </label>
+                            
                                 <label for="" class="form__block">
                                     <div class="form__titile">
                                         Имя
                                     </div>
                                     <input type="text" class="form__input">
                                 </label>
+                            </div>
+                            <div class="form__row">
                                 <label for="" class="form__block">
                                     <div class="form__titile">
                                         Имя
                                     </div>
                                     <input type="text" class="form__input">
                                 </label>
+                            </div>
+                            <div class="form__row">
                                 <label for="" class="form__block">
                                     <div class="form__titile">
                                         Имя
@@ -275,9 +280,29 @@
                             </div>
                         </div>
                         <div class="form__col">
+                            <div class="form__title">Комментарий</div>
                             <div class="form__row">
-                                <div class="form__title">Комментарий</div>
+                                
                                 <textarea class="form__input form__input--textarea"></textarea>
+                            </div>
+                            <div class="form__controls">
+                                <label class="radio">
+                                    <input type="radio" name="option" class="radio__elem">
+                                    <div class="radio__visible"></div>
+                                    <div class="radio__title">Потребуется сдача</div>
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="option" class="radio__elem">
+                                    <div class="radio__visible"></div>
+                                    <div class="radio__title">Оплата картой</div>
+                                </label>
+                            </div>
+                            <div class="form__controls">
+                                <label class="radio radio__checkbox">
+                                    <input type="radio" class="radio__elem">
+                                    <div class="radio__visible"></div>
+                                    <div class="radio__title">Потребуется сдача</div>
+                                </label>
                             </div>
                         </div>
                     </form>
