@@ -15,10 +15,6 @@ ul li {
   position: relative;
 }
 
-@font-face {
-  font-family: "Play";
-  src: url(../fonts/Play/Play-Regular.ttf);
-}
 body {
   color: #666666;
   font-family: "Play";
