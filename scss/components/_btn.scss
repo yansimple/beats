@@ -1,18 +1,27 @@
 .btn {
+    display: inline-flex;
     font-size: 19px;
     font-weight: bold;
-    padding: 18px 35px;
+    padding: 18px 41px;
     text-transform: uppercase;
     border-radius: 100px;
     line-height: 1;
     text-decoration: none;
     border: none;
-    &__red {
+    &--red {
         background-color: #E01F3D;
         color: #fff;
         &:hover {
             color: #fff;
             background-color: #CA1B36;
         }
+    }
+    &--transparent {
+        background-color: transparent;
+        text-transform: capitalize;
+        padding: 18px 12px;
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: 400;
     }
 }

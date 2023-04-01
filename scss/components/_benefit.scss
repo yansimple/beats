@@ -1,0 +1,29 @@
+.benefit_title {
+    color: black;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 7px;
+}
+
+.benefit__img-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 128px;
+    height: 128px;
+    background: #F2F5F4;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 30px;
+    margin-bottom: 24px;
+}
+.benefit {
+    text-align: center;
+
+}
+.benefit__desc {
+    font-size: 16px;
+    line-height: 19px;
+    color: #666666;
+}
