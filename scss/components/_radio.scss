@@ -1,18 +1,3 @@
-.form {
-    display: flex;
-}
-.order {
-    background: url(../../img/4430b7c5c5f2bc6a5b367211b5907e94.png) center center / cover no-repeat;
-}
-
-
-
-.order__title {
-    color: white;
-    margin-bottom: 58px;
-}
-
-
 .radio {
     display: flex;
     cursor: pointer;
@@ -60,9 +45,3 @@
     }
 }
 
-.form__radio {
-    margin-right: 15px;
-    &:last-child {
-        margin-right: 0;
-    }
-}
