@@ -1,0 +1,27 @@
+.btn {
+  display: inline-flex;
+  font-size: rem(19px);
+  font-weight: bold;
+  padding: rem(18px) rem(41px);
+  text-transform: uppercase;
+  border-radius: rem(100px);
+  line-height: 1;
+  text-decoration: none;
+  border: none;
+}
+.btn--red {
+  background-color: #E01F3D;
+  color: #fff;
+}
+.btn--red:hover {
+  color: #fff;
+  background-color: #CA1B36;
+}
+.btn--transparent {
+  background-color: transparent;
+  text-transform: capitalize;
+  padding: rem(18px) rem(12px);
+  font-size: rem(16px);
+  line-height: rem(19px);
+  font-weight: 400;
+}

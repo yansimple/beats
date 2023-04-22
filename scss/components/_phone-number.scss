@@ -1,6 +1,6 @@
 
 .phone-number {
-    font-size: 24px;
+    font-size: rem(24px);
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -8,13 +8,13 @@
 }
 
 .phone-number__icon {
-    height: 14px;
-    width: 14px;
-    margin-right: 6px;
+    height: rem(14px);
+    width: rem(14px);
+    margin-right: rem(6px);
 }
 .phone_number_icon {
-    width: 14px;
-    height: 13.78px;
+    width: rem(14px);
+    height: 13.rem(78px);
 }
 
 .phone-number__text {
@@ -22,7 +22,7 @@
     font-family: 'Play';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 18px;
+    font-size: rem(18px);
+    line-height: rem(18px);
     color: #292929;
 }

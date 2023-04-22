@@ -1,4 +1,5 @@
-@import "https://necolas.github.io/normalize.css/8.0.1/normalize.css";
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+@import "./components/media";
 @import "./layout/base";
 @import "./components/hero";
 @import "./components/header";

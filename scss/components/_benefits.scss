@@ -1,6 +1,6 @@
 .benefits {
     position: relative;
-    background: url(../../img/Vector\ 2.png) left bottom -10px no-repeat;
+    background: url(../../img/Vector\ 2.png) left bottom rem(-10px) no-repeat;
 }
 .benefits__list {
     display: flex;
@@ -11,10 +11,10 @@
     flex: 1;
     margin: 0 3%;
     &:first-child {
-        margin-left: 0px;
+        margin-left: rem(0px);
     }
     &:last-child {
-        margin-right: 0px;
+        margin-right: rem(0px);
         &:before {
             display: none;
         }
@@ -23,8 +23,8 @@
     &::before {
         content: url(../../img/Combined\ shape\ 2204.png);
         position: absolute;
-        top: 62px;
-        right: -23px;
+        top: rem(62px);
+        right: rem(-23px);
         transform: translateX(50%);
     }
 }

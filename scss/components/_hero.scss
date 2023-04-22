@@ -2,7 +2,7 @@
 .hero {
     
     background-color: #F5F5F5;
-    padding: 24px 0 65px;
+    padding: rem(24px) 0 rem(65px);
     
 }
 
@@ -10,38 +10,38 @@
     background: url("../img/Ellipse\ 5.png") right 1% center no-repeat;
     &::before {
         content: "";
-        width: 46.32px;
-        height: 10.38px;
+        width: 46.rem(32px);
+        height: 10.rem(38px);
         background-color: #C4C4C4;
         transform: rotate(-45deg);
         right: 10%;
         position: absolute;
         right: 10%;
-        bottom: 0px;
+        bottom: rem(0px);
     }
 }
 
 .hero__main-title {
-    font-size: 48px;
+    font-size: rem(48px);
     line-height: 1.1;
     font-weight: bold;
-    margin-bottom: 22px;
+    margin-bottom: rem(22px);
     text-transform: uppercase;
     font-family: 'Play';
     color: black;
 }
 
 .hero__title__desc {
-    font-size: 21px;
-    margin-bottom: 36px;
+    font-size: rem(21px);
+    margin-bottom: rem(36px);
     padding-right: 15%;
     font-family: 'Alegreya Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 21px;
-    line-height: 25px;
+    font-size: rem(21px);
+    line-height: rem(25px);
 }
 .hero__title-section {
-    width: 400px;
+    width: rem(400px);
 
 }

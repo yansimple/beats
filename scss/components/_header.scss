@@ -2,12 +2,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-right: 24px;
+    padding-right: rem(24px);
     font-family: 'Alegreya Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 20px;   
+    font-size: rem(18px);
+    line-height: rem(20px);   
 }
 
 
