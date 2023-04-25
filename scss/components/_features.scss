@@ -1,5 +1,11 @@
 .features {
     display: flex;
+    @include tablets {
+        display: none;
+    }
+    @include phones {
+        display: none;
+    }
 }
 
 .features__item {

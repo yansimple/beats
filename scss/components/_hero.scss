@@ -3,21 +3,34 @@
     
     background-color: #F5F5F5;
     padding: rem(24px) 0 rem(65px);
+    &:after, &:before {
+        @include tablets {
+            display: none;
+        }
+        @include phones {
+            display: none;
+        }
+    }
     
 }
+
+
 
 .hero__container {
     background: url("../img/Ellipse\ 5.png") right 1% center no-repeat;
     &::before {
         content: "";
-        width: 46.rem(32px);
-        height: 10.rem(38px);
+        width: rem(32px);
+        height: rem(38px);
         background-color: #C4C4C4;
         transform: rotate(-45deg);
         right: 10%;
         position: absolute;
         right: 10%;
         bottom: rem(0px);
+    }
+    @include tablets {
+        background: none;
     }
 }
 
@@ -40,8 +53,22 @@
     font-weight: 400;
     font-size: rem(21px);
     line-height: rem(25px);
+    @include tablets {
+        padding: 0 25%;
+    }
 }
 .hero__title-section {
     width: rem(400px);
-
+    @include tablets {
+        width: 100%;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        &::before {
+            content: url(./../../img/Ellipse\ 5tablet.png);
+        }
+    }
 }

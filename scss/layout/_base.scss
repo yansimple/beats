@@ -1,5 +1,6 @@
 $grey: #F5F5F5;
-
+$tablets: 768px;
+$phones: 480px;
 * {
     box-sizing: border-box;
     margin: 0;
@@ -14,6 +15,12 @@ h1,h2,h3,h4,h5,h6,p {
 html {
     font-size: rem(18px);
     height: 100%;
+    @include tablets {
+        font-size: 18px - 1px;
+    }
+    @include phones {
+        font-size: 18px - 2px;
+    }
 }
 
 body {
