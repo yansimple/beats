@@ -8,12 +8,21 @@
 }
 .reviews__display-inner {
     display: flex;
+    @include tablets {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
 }
 
 .reviews__avatar {
     width: rem(253px);
     height: rem(264px);
     margin-right: rem(40px);
+    @include tablets {
+        width: 130px;
+        height: 130px;
+    }
 }
 
 .reviews__avatar-img {
