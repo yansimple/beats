@@ -1,10 +1,15 @@
 .benefits {
     position: relative;
     background: url(../../img/Vector\ 2.png) left bottom rem(-10px) no-repeat;
+    @include phones {
+        display: flex;
+    }
 }
 .benefits__list {
     display: flex;
-
+    @include phones {
+        flex-direction: column;
+    }
 }
 
 .benefits__item {
@@ -26,6 +31,14 @@
         top: rem(62px);
         right: rem(-23px);
         transform: translateX(50%);
+    }
+    @include tablets {
+        &::before {
+            display: none;
+        }
+    }
+    @include phones {
+        padding: 0;
     }
 }
 

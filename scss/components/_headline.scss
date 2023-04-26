@@ -9,6 +9,9 @@
     padding: 0 19%;
     font-size: rem(16px);
     line-height: rem(19px);
+    @include phones {
+        padding: 0 5%;
+    }
 }
 .headline {
     text-align: center;

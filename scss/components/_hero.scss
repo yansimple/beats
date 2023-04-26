@@ -56,6 +56,9 @@
     @include tablets {
         padding: 0 25%;
     }
+    @include phones {
+        padding: 0 16%;
+    }
 }
 .hero__title-section {
     width: rem(400px);
@@ -68,7 +71,10 @@
         align-items: center;
         text-align: center;
         &::before {
-            content: url(./../../img/Ellipse\ 5tablet.png);
+            content: "";
+            height: rem(330px);
+            width: rem(316px);
+            background: url(./../../img/Ellipse\ 5tablet.png) center center / contain no-repeat;
         }
     }
 }

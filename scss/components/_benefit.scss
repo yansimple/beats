@@ -17,9 +17,19 @@
     overflow: hidden;
     padding: rem(30px);
     margin-bottom: rem(24px);
+    @include phones {
+        
+        padding: 0;
+    }
+
 }
 .benefit {
     text-align: center;
+    @include phones {
+        display: flex;
+        padding: 0;
+        text-align: left;
+    }
 
 }
 .benefit__desc {
