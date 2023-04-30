@@ -1,6 +1,8 @@
 .benefits {
     position: relative;
-    background: url(../../img/Vector\ 2.png) left bottom rem(-10px) no-repeat;
+    &::before {
+        content: url(./../img/Vector\ 2.svg) left bottom rem(-10px) no-repeat;
+    }
     @include phones {
         display: flex;
     }
@@ -26,7 +28,7 @@
     }
     position: relative;
     &::before {
-        content: url(../../img/Combined\ shape\ 2204.png);
+        content: url(./../img/Combined\ shape\ 2204.png);
         position: absolute;
         top: rem(62px);
         right: rem(-23px);

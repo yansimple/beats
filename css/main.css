@@ -146,7 +146,7 @@ img {
     content: "";
     height: 18.3333333333rem;
     width: 17.5555555556rem;
-    background: url(./../../img/Ellipse\ 5tablet.png) center center/contain no-repeat;
+    background: url(./../img/Ellipse\ 5tablet.png) center center/contain no-repeat;
   }
 }
 
@@ -670,7 +670,9 @@ img {
 
 .benefits {
   position: relative;
-  background: url(../../img/Vector\ 2.png) left bottom -0.5555555556rem no-repeat;
+}
+.benefits::before {
+  content: url(./../img/Vector\ 2.svg) left bottom -0.5555555556rem no-repeat;
 }
 @media screen and (max-width: 480px) {
   .benefits {
@@ -711,7 +713,7 @@ img {
   display: none;
 }
 .benefits__item::before {
-  content: url(../../img/Combined\ shape\ 2204.png);
+  content: url(./../img/Combined\ shape\ 2204.png);
   position: absolute;
   top: 3.4444444444rem;
   right: -1.2777777778rem;
