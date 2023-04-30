@@ -15,4 +15,9 @@
 }
 .headline {
     text-align: center;
+    &::before {
+        content: url("./../img/Vector\ 2.svg");
+        margin-right: auto;
+        margin-left: 5%;
+    }
 }

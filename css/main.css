@@ -667,6 +667,11 @@ img {
 .headline {
   text-align: center;
 }
+.headline::before {
+  content: url("./../img/Vector 2.svg");
+  margin-right: auto;
+  margin-left: 5%;
+}
 
 .benefits {
   position: relative;
