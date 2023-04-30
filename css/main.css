@@ -82,7 +82,7 @@ img {
   }
 }
 .hero__container:after {
-  content: url("./../../img/Rectangle 14.svg");
+  content: url("./../img/Rectangle 14.svg");
   margin-left: auto;
   margin-right: 5%;
 }
@@ -672,7 +672,7 @@ img {
   position: relative;
 }
 .benefits::before {
-  content: url(./../img/Vector\ 2.svg) left bottom -0.5555555556rem no-repeat;
+  content: url("./../img/Vector 2.svg") left bottom -0.5555555556rem no-repeat;
 }
 @media screen and (max-width: 480px) {
   .benefits {
