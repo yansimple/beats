@@ -74,24 +74,17 @@ img {
 }
 
 .hero__container {
-  background: url("./../../img/Ellipse 5tablet.png") right 1% center no-repeat;
-}
-.hero__container::before {
-  content: "";
-  width: 1.7777777778rem;
-  height: 2.1111111111rem;
-  background-color: #C4C4C4;
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
-  right: 10%;
-  position: absolute;
-  right: 10%;
-  bottom: 0rem;
+  background: url("./../img/Ellipse 5tablet.png") right 1% center no-repeat;
 }
 @media screen and (max-width: 768px) {
   .hero__container {
     background: none;
   }
+}
+.hero__container:after {
+  content: url("./../../img/Rectangle 14.svg");
+  margin-left: auto;
+  margin-right: 5%;
 }
 
 .hero__main-title {
