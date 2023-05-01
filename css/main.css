@@ -655,6 +655,7 @@ img {
 .headline__subtitle {
   color: #666666;
   padding: 0 19%;
+  margin-bottom: 3.4444444444rem;
   font-size: 0.8888888889rem;
   line-height: 1.0555555556rem;
 }
@@ -737,14 +738,12 @@ img {
 }
 
 .benefits__icon {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   height: 68px;
   width: 68px;
+}
+
+.benefits__icon-fist {
+  width: 32px;
 }
 
 .benefit_title {
@@ -796,6 +795,10 @@ img {
   font-size: 0.8888888889rem;
   line-height: 1.0555555556rem;
   color: #666666;
+}
+
+.benefit__text {
+  margin-left: 2%;
 }
 
 .form {
