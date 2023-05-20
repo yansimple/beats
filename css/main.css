@@ -415,6 +415,9 @@ img {
       -ms-flex-direction: row;
           flex-direction: row;
   overflow: hidden;
+  position: relative;
+  width: 50.8333333333rem;
+  height: 25.1111111111rem;
 }
 
 .move-switcher {
@@ -425,8 +428,6 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  width: 50.8333333333rem;
-  height: 25.1111111111rem;
 }
 
 .reviews__main-title {

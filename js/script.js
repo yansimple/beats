@@ -1,6 +1,6 @@
-const leftBtn = document.querySelector("#leftArrow")
-const rightBtn = document.querySelector("#rightArrow")
-const items = document.querySelector("#item-switcher")
+const leftBtn = document.querySelector('#leftArrow')
+const rightBtn = document.querySelector('#rightArrow')
+const items = document.querySelector('#item-switcher')
 
 let currentRight = 0
 let currentLeft = 0
