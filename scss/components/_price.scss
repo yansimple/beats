@@ -20,6 +20,8 @@
 
 .price__container {
     display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .price__specs {
@@ -69,3 +71,17 @@
     color: #151515;
     margin-right: rem(13px);
 }
+.item-switcher {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.move-switcher {
+    display: flex;
+    flex-direction: row;
+    width: rem(915px);
+    height: rem(452px);
+    overflow: hidden;
+}
+
