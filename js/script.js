@@ -4,15 +4,21 @@ const items = document.querySelector("#item-switcher");
 
 let currentRight = 0
 
+
 rightBtn.addEventListener("click", e => {
     e.preventDefault()
-    currentRight += 864;
-    items.style.right = `${currentRight}px`;
+    if (currentRight < 864) {
+        currentRight += 864;
+        items.style.right = `${currentRight}px`;
+    }
+    
 })
 
 leftBtn.addEventListener("click", e => {
     e.preventDefault()
-    currentRight -= 864
+    if (currentRight >= 0) {
+        currentRight -= 864;
+        items.style.right = `${currentRight}px`;
+    }
     
-    items.style.right = `-${currentRight}px`;
 })
